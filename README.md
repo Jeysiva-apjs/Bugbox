@@ -2,6 +2,13 @@
 
 Bugbox is a robust bug tracking application built using **Java 21** and **Spring Boot**, with **Spring Security**, **JWT authentication**, and **validation**. It allows users to report bugs, manage bug statuses, and handle user roles efficiently. Admins can manage users and bugs, while users can create and track bug reports.
 
+## Tech Stack
+
+- **Backend:** Java, Spring Boot  
+- **Security:** Spring Security, JWT Authentication
+- **Documentation:** Well documeted with Swagger (refer the pictures below)  
+- **Persistence:** JPA / Hibernate, MySQL  
+- **Validation:** Bean Validation (Jakarta Validation API)  
 
 ## Features
 
@@ -24,6 +31,12 @@ Bugbox is a robust bug tracking application built using **Java 21** and **Spring
 ### Authentication
 - Register as a new user or admin.
 - Login using JWT-based authentication.
+
+
+## Swagger Documentation 
+
+<img width="1307" height="561" alt="image" src="https://github.com/user-attachments/assets/94007678-f38f-4cf2-82a1-dcb725344c0f" />
+<img width="1316" height="498" alt="image" src="https://github.com/user-attachments/assets/24573db2-145f-4862-bb51-8297f68478d5" />
 
 
 ## REST API Endpoints
@@ -65,10 +78,5 @@ Bugbox is a robust bug tracking application built using **Java 21** and **Spring
 | POST   | `/auth/login` | Login a user |
 
 
-## Tech Stack
 
-- **Backend:** Java 21, Spring Boot  
-- **Security:** Spring Security, JWT Authentication  
-- **Persistence:** JPA / Hibernate, MySQL  
-- **Validation:** Bean Validation (Jakarta Validation API)  
 
